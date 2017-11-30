@@ -8,10 +8,7 @@
  */
 
 return [
-    'demo' => [
-        'process' => \Processor\DemoProcessor::class,
-        'options' => [
-            'foo' => 'bar',
-        ],
+    'subscribe' => [
+        'process' => \Process\SubscribeProcess::class
     ],
 ];
